@@ -18,13 +18,15 @@ Upgraded from Vue 2.5.9 to Vue 3.2
 
 * Babel not required, requires Vite config file `/vite.config.js`
 
-* Environment files located in the root folder, e.g. `.env.development`
+* Environment files located in the root folder, e.g. `/.env.development`
 
   * Loaded in `vite.config.js`, using `loadEnv` command and `define` key
 
   * Only key name starting with `VITE_` is available in the frontend
 
   * Can be accessed using `import.meta.env.VITE_...`, e.g. `src/components/Home.vue`
+
+  * Ensure `/.env.production` is available before building for production, i.e. running `yarn build`
 
 
 ## Build Setup
