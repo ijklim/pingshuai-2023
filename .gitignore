@@ -3,6 +3,7 @@ node_modules/
 *.log*
 test/unit/coverage
 test/e2e/reports
+dist/
 
 # Development files such as psd for images
 __*/
