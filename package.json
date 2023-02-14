@@ -1,0 +1,26 @@
+{
+  "name": "pingshuai",
+  "version": "2.0.1",
+  "description": "Ping Shuai Timing App",
+  "author": "Ivan Lim <aimprove@gmail.com>",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vue/compat": "^3.2.47",
+    "vue": "^3.2.45",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "@vue/compiler-sfc": "^3.2.47",
+    "vite": "^4.0.0"
+  },
+  "notes": {
+    "@vue/compat": "Migration build, can be removed when all code and libraries are converted to Vue 3 format",
+    "@vue/compiler-sfc": "Supports @vue/compat, can be removed together"
+  }
+}
